@@ -1,0 +1,9 @@
+### 멤버 생성
+POST /localhost:8080/member/v1
+Content-Type: application/json
+
+{
+  "email": "qkrjh0904@gmail.com",
+  "password": "1234",
+  "name": "jeongho"
+}

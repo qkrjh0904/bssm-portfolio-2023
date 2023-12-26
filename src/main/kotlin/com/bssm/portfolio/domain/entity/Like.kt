@@ -38,5 +38,4 @@ class Like(
     )
     var member: Member = member
         protected set
-
 }

@@ -58,7 +58,7 @@ class Member private constructor(
                 email = email,
                 password = password,
                 name = name,
-                roleType = MemberRoleType.ADMIN,
+                roleType = MemberRoleType.ADMIN
             )
         }
 
@@ -71,7 +71,7 @@ class Member private constructor(
                 email = email,
                 password = password,
                 name = name,
-                roleType = MemberRoleType.USER,
+                roleType = MemberRoleType.USER
             )
         }
     }

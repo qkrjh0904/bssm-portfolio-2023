@@ -48,5 +48,4 @@ class Comment(
     )
     var parent: Comment? = comment
         protected set
-
 }

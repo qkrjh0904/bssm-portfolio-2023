@@ -12,6 +12,6 @@ fun CreateMemberDto.toEntity(): Member {
     return Member.createAdmin(
         email = email,
         password = password,
-        name = name,
+        name = name
     )
 }

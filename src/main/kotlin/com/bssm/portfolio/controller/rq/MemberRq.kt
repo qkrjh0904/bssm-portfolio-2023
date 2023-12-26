@@ -12,6 +12,6 @@ fun MemberRq.toDto(): CreateMemberDto {
     return CreateMemberDto(
         email = email,
         password = password,
-        name = name,
+        name = name
     )
 }

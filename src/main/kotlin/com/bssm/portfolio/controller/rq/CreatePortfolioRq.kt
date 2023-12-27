@@ -25,5 +25,5 @@ fun CreatePortfolioRq.toDto() = CreatePortfolioDto(
     gitUrl = gitUrl,
     memberId = member,
     videoFileUid = videoFile,
-    thumbnailFileUid = thumbnailFile,
+    thumbnailFileUid = thumbnailFile
 )

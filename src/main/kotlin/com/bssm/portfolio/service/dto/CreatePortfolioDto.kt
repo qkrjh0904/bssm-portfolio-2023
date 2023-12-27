@@ -31,5 +31,5 @@ fun CreatePortfolioDto.toEntity(
     gitUrl = gitUrl,
     member = member,
     videoFile = videoFile,
-    thumbnailFile = thumbnailFile,
+    thumbnailFile = thumbnailFile
 )

@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class PortfolioController (
+class PortfolioController(
     private val portfolioService: PortfolioService,
-){
+) {
 
     @PostMapping(ApiPath.PORTFOLIO_V1)
     fun createPortfolio(@RequestBody rq: CreatePortfolioRq): Long {

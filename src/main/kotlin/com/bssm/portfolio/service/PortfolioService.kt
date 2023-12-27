@@ -17,5 +17,4 @@ class PortfolioService(
         val thumbnailFile = attachFileReadService.findByFileUidOrThrow(dto.thumbnailFileUid)
         return portfolioRepository.save(dto.toEntity(member, videoFile, thumbnailFile)).id
     }
-
 }

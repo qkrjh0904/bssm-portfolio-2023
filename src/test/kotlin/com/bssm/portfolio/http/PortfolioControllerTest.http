@@ -1,0 +1,16 @@
+### 포트폴리오 생성
+POST /localhost:8080/portfolio/v1
+Content-Type: application/json
+
+{
+  "title": "portfolio title",
+  "theme": "WEB",
+  "protectType": "PUBLIC",
+  "description": "portfolio description",
+  "webUrl": "naver.com",
+  "gitUrl": "github.com",
+  "member": 1,
+  "videoFile": "fileUid01",
+  "thumbnailFile": "fileUid02"
+}
+

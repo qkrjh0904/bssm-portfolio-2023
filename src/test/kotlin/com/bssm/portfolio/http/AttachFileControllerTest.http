@@ -1,0 +1,10 @@
+### 첨부파일 생성
+POST /localhost:8080/file/v1
+Content-Type: application/json
+
+{
+    "fileUid": "fileUid04",
+    "filePath": "/bssm/file",
+    "fileName": "test.txt",
+    "fileSize": 1234
+}

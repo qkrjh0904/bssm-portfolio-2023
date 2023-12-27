@@ -16,6 +16,4 @@ class AttachFileService(
         val attachFile = attachFileRepository.save(dto.toEntity())
         return attachFile.fileUid
     }
-
-
 }

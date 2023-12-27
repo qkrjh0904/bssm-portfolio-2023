@@ -14,6 +14,4 @@ class AttachFileReadService(
         return attachFileRepository.findByFileUid(fileUid)
             ?: throw IllegalArgumentException("해당 파일이 존재하지 않습니다.")
     }
-
-
 }

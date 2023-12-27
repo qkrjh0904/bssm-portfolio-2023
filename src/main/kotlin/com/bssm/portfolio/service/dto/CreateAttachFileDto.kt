@@ -13,5 +13,5 @@ fun CreateAttachFileDto.toEntity() = AttachFile(
     fileUid = fileUid,
     filePath = filePath,
     fileName = fileName,
-    fileSize = fileSize,
+    fileSize = fileSize
 )
